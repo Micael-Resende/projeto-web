@@ -1,0 +1,250 @@
+<!--
+    HTML - HYPER TEXT LANGUAGE
+-->
+
+<!--
+    Atributos Globais mais utilizados
+
+    - class
+    - contenteditable
+    - data-*
+    - hidden
+    - id
+    - style
+    - tabindex
+    - title
+
+    - Conteudo do texto e caracteres reservados
+
+       reservado  <
+       forma de utilizar &lt
+
+       reservado  >
+       forma de utilizar &gt 
+
+       reservado  & 
+       forma de utilizar &amp
+
+      reservado  " "
+      forma de utilizar &quot
+
+      reservado  ' '
+      forma de utilizar &apos
+
+-->
+
+<!--ANATOMIA DO DOCUMENTO-->
+<!DOCTYPE html>
+<html lang="pt-br">
+
+   <!--HEAD, CONFIGURAÇÕES-->
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FUNDAMENTAR</title>
+    </head>
+
+    <!--BODY, CONTEÚDO VISUAL-->
+    <body>
+        <h1>Sobre mim</h1>
+        <p><strong> Lorem </strong> ipsum dolor sit, amet consectetur adipisicing elit. Totam magni similique tempore eligendi. Debitis exercitationem ab architecto asperiores sit totam illo at voluptate rem! Quo nam fugit distinctio dolore totam.</p>
+        <h2>Trabalho</h2>
+        <p><strong><em>Lorem</em></strong>, ipsum dolor sit amet consectetur adipisicing elit. Suscipit doloribus recusandae laudantium dolorem hic quo quisquam nesciunt accusantium unde atque non nostrum, sequi est, libero eum ad nemo exercitationem? Natus.</p>
+        <h2>Hobbie</h2>
+        <p> Lorem ipsum dolor sit amet <strong> ipslun </strong> adipisicing <b> elit.</b> Dolorem aperiam incidunt, explicabo eos facilis, distinctio repellat totam qui, provident alias asperiores perspiciatis deleniti cumque laudantium sed itaque voluptatum nulla debitis.</p>
+        <a href="www.google.com.br">Saiba mais</href></a>
+
+        <p>
+            &nbsp; os espaços
+            <br>
+            &nbsp; que colocamos
+            <br>
+            &nbsp; além das quebras
+            <br> 
+            &nbsp; de linha são ignorados.
+        </p>
+
+
+        <h1>Suco detox</h1>
+        <h2>Ingredientes:</h2>
+
+        <ol>
+            <li>3 folhas de couve;</li>
+            <li>1 laranja;</li>
+            <li>1/2 de gengibre</li>
+            <li>300 ml de agua</li>
+            <li>Adoçante a gosto</li>
+            <li>Gelo a gosto</li>
+        </ol>
+
+        <ul>
+            <li>3 folhas de couve;</li>
+            <li>1 laranja;</li>
+            <li>1/2 de gengibre</li>
+            <li>300 ml de agua</li>
+            <li>Adoçante a gosto</li>
+            <li>Gelo a gosto</li>
+        </ul>
+
+        <br>
+
+
+        <blockquote cite="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/blockquote"> 
+            O <strong> Elemento HTML <code>&lt;blockquote&gt;</blockquote></code>
+            </strong> (ou <em> HTML Block Quotation Element</em>) indica que um texto externo foi citado.
+        </blockquote>
+
+
+        <p>
+            De acordo com <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/blockquote"> <cite>página MDN blockquote
+            </cite></a>
+        </p>
+
+        <p>
+            Usamos <abbr title="Hypertext Markup Language"> HTML</abbr> para estrututar nossos documento da web.
+        </p>
+
+        <address>
+            <p> Micael Resende <br>
+                <strong>Patrcínio, MG</strong>
+            </p>
+        </address>
+
+        <h2>Glossario</h2>
+
+        <!--
+            <dl>
+                <dt></dt>
+                <dd></dd>
+
+                <dt></dt>
+                <dd></dd>
+
+                <dt></dt>
+                <dd></dd>
+        </dl>
+        -->
+
+        <dl>
+            <dt>Hypertext</dt>
+            <dd>É um hyper texto...</dd>
+
+            <dt>Markup</dt>
+            <dd>Marcação do texto...</dd>
+
+            <dt>Language</dt>
+            <dd>Linguagem com semantica e sintaxe...</dd>
+        </dl>
+        
+
+        <!--
+            Representando códigos do computador
+
+            <code>
+                    Parte genérica de código
+            
+            <pre> Texto preformatado
+                Blocos de códigos, pois essa tag mantém os espaços em branco e recuos que eu colocae no meu código
+        -->
+        <pre>
+            <code>
+                &lt;
+            </code>
+        </pre>
+
+
+        <!--
+            <div></div> — tag usada para agrupar conteúdo.
+
+            <span></span> — tag usada para agrupar texto, em uma ideia mais de linha.
+        -->
+        <div class="Produto">
+            <span>Camiseta</span>
+            <span>R$ 99,00</span>
+        </div>
+
+        <h1>
+            <strong><p>Links</p></strong> 
+        </h1>
+        
+        <ul>
+            <li><a href="https://rocketseat.com.br" target="_blank">Website</a></li>
+            <li><a href="micaelsilvaptc@gmail.com">Email</a></li>
+            <li><a href="tel:+5534999814423">Telefone</a></li>
+        </ul>
+
+        <!--
+            Navegação em fragmento
+        -->
+        <p>Saiba mais</p>
+        <ul>
+            <li><a href="#about">Sobre mim</a></li>
+            <li><a href="#history">História</a></li>
+            <li><a href="#works">Trabalhos</a></li>
+        </ul>
+
+        <h1 id="about">Sobre mim</h1>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae impedit repudiandae quidem eveniet aspernatur culpa sit ut autem expedita laborum tenetur labore earum, in illo numquam non! Eum, ipsa veritatis.
+
+        <h2 id="history">História</h2>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea magni voluptate qui quo provident ut, saepe, numquam itaque tempora autem delectus quidem rem error velit voluptas distinctio. Odio, nostrum molestias?
+
+        <h2 id="works">Trabalhos</h2>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit magnam, pariatur voluptate dolore et voluptatem labore minima consequatur amet voluptas voluptatum vitae quo ipsam? Sequi illo adipisci sapiente iusto tempora?
+
+        <a href="https://google.com" title="Ir para o google">
+            <h1>Google</h1>
+            <p>Entrar</p>
+            <img src="https://source.unsplash.com/random" alt="">
+        </a>
+
+        <!--
+            URLs e Caminhos dos Arquivos
+
+            - Uniform Resource Locator
+                -https://www.rockeseat.com.br
+                - Sequência de texto que define onde algo está localizado na Web
+            - URL usam caminhos para encontrar arquivos
+
+            - Caminho dos arquivos
+                - Onde, no exploraor de arquivos, um recurso está localizao
+        -->
+        <a href="hyperlinks.html" target="_blank">Abrir Hyperlinks</a>
+
+
+        <!--
+            Como navegar pelos Caminhos
+
+                - mesmo diretório
+                - entrando en diretórios
+                - sainddo de diretórios
+                - diretório raiz (root ou pai)
+        -->
+
+        <a href="../hyperlinks.html">arquivo na pasta anterior</a>
+        <br>
+        <a href="./urls-caminhos.html">arquivo no diretório raiz</a>
+        <br>
+        <a href="urls-caminhos.html">arquivo na mesma pasta</a>
+        <br>
+        <a href="../outros/conteudo-a-e-element.html">arquivo na pasta outros, que esta na pasta anterior</a>
+
+        <!--
+            URLs absoluta versus relativos
+
+                - Absolutos
+                    - inclui protocolos e nome de domínio
+                        - http://www.rocketseat.com.br/fundamentar/index.html
+                    - sempre apontará para o nome mesmo local, pois é absoluto
+
+                - Relativos
+                    - relativo a página aberta no momento
+                    - apontará para lugares diferentes
+        -->
+
+        <a href="google.com">relativo: ir para o google</a>
+        <br>
+        <a href="https://google.com">absoluto: ir para o google</a>
+    </body>
+</html>

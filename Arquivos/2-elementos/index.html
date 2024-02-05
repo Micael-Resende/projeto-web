@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FUNDAMENTAR</title>
+</head>
+<body>  
+    <!--
+        SEMÂNTICA
+            - DAR SIGNIFICADO
+            - ELEMENTOS SEMÂNTICOS
+    -->
+
+    <!--
+        CABEÇALHOS E PARÁGRAFOS
+    -->
+    <h1>Sobre min</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum accusantium quos sapiente odio nemo sequi expedita officiis voluptatem! Veniam tempora aut corrupti eius modi. Unde tenetur aut natus sequi velit!</p>
+    <h2>Nascimento</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab veritatis non culpa delectus iusto aperiam alias molestias nesciunt iure sed earum, veniam, autem error incidunt rerum quas, exercitationem omnis animi!</p>
+    <h2>Trabalho</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ipsum eos iure mollitia nesciunt laudantium, ipsa odio dolorem id? Minima sed, necessitatibus accusamus nobis nulla nostrum doloribus quis repellat facere!</p>
+    <h3>Projetos</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error magni, sequi aliquam cupiditate architecto doloribus tenetur molestiae voluptatibus alias reprehenderit. Inventore recusandae delectus quo libero omnis ducimus animi ipsa cupiditate.</p>
+    <a href="">Saiba mais</a>
+
+    <br>
+
+
+    <!---
+        LISTAS
+            - ORDERNADAS
+            - NÃO ORDERNADAS
+    -->
+    <h1>Suco Detox</h1>
+    <h3>Ingredientes: </h3>
+
+    <ul>
+        <li>3 folhas de couve;</li>
+        <li>1 laranja;</li>
+        <li>1/2 de gengibre</li>
+        <li>300 ml de agua</li>
+        <li>Adoçante a gosto</li>
+        <li>Gelo a gosto</li>
+    </ul>
+
+    <ol>
+        <li>3 folhas de couve;</li>
+        <li>1 laranja;</li>
+        <li>1/2 de gengibre</li>
+        <li>300 ml de agua</li>
+        <li>Adoçante a gosto</li>
+        <li>Gelo a gosto</li>
+    </ol>
+
+    <!--
+        CITAÇÕES
+
+        <blockquote>
+        <cite>
+        <q>
+    -->
+    <blockquote cite="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/blockquote">
+        O <strong>Elemento Html <code>&lt;blockquote&gt;</code>
+          </strong> (ou <em>HTML Block Quotation Element</em>)inidica que um texto externo foi citado.
+    </blockquote>
+
+    <p>De acordo com <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/blockquote">
+        <cite>página MDN blockquote</cite></a>:
+    </p>
+   
+    <p>O elemento quote — <code>&lt;q&gt;</code> — é <q cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q">usado para citações curtas que não precisam de parágrafos ou quebras de linha.</q> -- <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q">
+        <cite>MDN q page</cite></a>.
+    </p>
+
+
+    <!--
+        Abreviações
+
+        <abbr>
+    -->
+    <p>Usamos <abbr title="HyperText Markup Language">HTML</abbr> para estrututar nossos documentos da WEB.</p>
+
+
+    <!--
+        Detalhes de contato
+
+        <address>
+    -->
+    <address>
+        <p>Micael Resende <br>
+        <strong>Patrocínio, MG.</strong>
+        </p>
+    </address>
+
+
+    <!--
+        lista de descrição
+
+        <dl>
+            <dt></dt>
+            <dd></dd>
+        </dl>
+    -->
+    <h2>Glossário</h2>
+    <dl>
+        <dt>HyperText</dt>
+        <dd>É um hiper texto com possibilidades...</dd>
+
+        <dt>Markup</dt>
+        <dd>Marcação do texto</dd>
+
+        <dt>Language</dt>
+        <dd>Linguagem com semântica e sintaxe...</dd>
+    </dl>
+
+    <!--
+        Representando códigos de computador
+
+        <code>
+            Partes genéricas de código
+        <prev>
+            Blocos de código, pois essa tag mantém os espaços em brancos e recuos que eu colocar no meu código
+    -->
+    <pre>
+        <code>
+            <pre>
+                document.querySelecto("body")
+                &lt;pre>&lt;/pre>
+            </pre>
+        </code>
+    </pre>
+
+
+    <!--
+        Elementos genéricos
+        
+        <div> (container genérico ou divisão(blocos))
+        <span> (manter texto em linha)
+    -->
+    <div class="loja">
+        <span>Camiseta</span>
+        <span>R$ 99,9</span>
+    </div>
+
+
+
+    <!--
+        Hyperlinks - Elemento Âncora: <a>
+
+        + Anatomia
+            <a href="http   ://google.com">Google</a>
+            
+        + Atributos:
+            - globais
+            - href
+                - para onde iremmos, quando clicarmos no link?
+                    - url completa
+                    - fragmento
+                    - email
+                    - telefone
+                    - e outros.
+            - download
+            - target
+                - _self (Padrão, coloca o resultado no mesmo quadro de nabegação)
+                - _blank (Abre o resultado um nova janela)
+    -->
+    <a href="http://google.com" target="_blank">Google</a>
+
+    <p>Encontre-me: </p>
+
+    <ul>
+        <li><a href="https://rocketseat.com.br" target="_blank">Rocketseat</a></li>
+        <li><a href="mailto:micaelresendedasilva@gmail.com">Email</a></li>
+        <li><a href="tel:+5534999814423">Telefone</a></li>
+    </ul>
+
+
+    <!--Fragmento, vai direto para a área da página que deseja-->
+    <p>Saiba mais</p>
+    <ul>
+        <li><a href="#about">Sobre min</a></li>
+        <li><a href="#history">História</a></li>
+        <li><a href="#works">Trabalhos</a></li>
+    </ul>
+
+    <h1 id="#about">Sobre mim</h1>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem error obcaecati hic similique doloremque voluptas voluptatem explicabo architecto facere qui aliquam quisquam, odio iusto illo tenetur maiores quam dicta! Vero!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde itaque veritatis perspiciatis quasi eum dolor magnam quam odio quos? Vel minima voluptates sequi, et deleniti neque rerum a officia corporis!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde impedit praesentium tempore, repellendus sapiente voluptates quae iusto quam debitis nisi itaque, placeat aspernatur? Doloribus laudantium magni vel asperiores debitis quasi.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, quis, officia iusto ut, ad debitis cumque distinctio vero suscipit hic deserunt quod mollitia ex nulla dolor tenetur aspernatur ullam provident?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, ab dignissimos in accusantium, non perferendis quod quos a natus totam odit quisquam impedit sed nostrum nulla eos quam? Aut, incidunt!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora laudantium maiores recusandae harum vel commodi eligendi fugiat nemo porro, id earum unde quos amet! Optio magnam eos assumenda commodi quidem.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus corporis soluta unde officia quis, saepe nemo vitae nobis blanditiis hic, eum dignissimos aliquid. Dolorem ex ipsa rerum neque odit nulla.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae sint velit necessitatibus provident delectus vero! Veniam magnam accusantium non! Reprehenderit atque provident eum excepturi rerum in at sint maxime. Quae.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores adipisci itaque quo, officia illo consequatur recusandae optio ipsam voluptatibus. Minima necessitatibus nam sit, perferendis veniam ad molestias voluptatibus eum illo.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci suscipit, aliquam quasi, nam saepe tenetur error facilis iste quidem minima unde iure fugit temporibus enim, omnis incidunt vitae nisi similique.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium natus consequuntur architecto consectetur quod, iusto esse, officia eaque, laborum quaerat quidem! Beatae odio minus nostrum quisquam earum repellat illo accusantium.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum perferendis architecto natus commodi consequatur dolor nam aperiam itaque ea provident. Adipisci porro inventore ex eligendi deleniti perspiciatis, molestiae aspernatur pariatur.
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate fuga alias eaque quas cumque, asperiores ea enim fugiat eum minima maxime suscipit, eligendi itaque. Delectus saepe tenetur inventore reiciendis nobis?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit vitae perspiciatis nobis doloribus ex tempora dolores? Veritatis enim sapiente aliquam totam dicta quo! Sit architecto magnam libero quos cum modi.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut sapiente blanditiis exercitationem quos cumque vel eum animi. Harum natus consequuntur veritatis. Sint minus voluptate quis earum sapiente necessitatibus a excepturi.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut animi consequuntur tempora fuga accusamus at cupiditate vel voluptates neque, ratione molestias rerum officiis esse voluptatem alias, beatae asperiores harum. Possimus!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem error obcaecati hic similique doloremque voluptas voluptatem explicabo architecto facere qui aliquam quisquam, odio iusto illo tenetur maiores quam dicta! Vero!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde itaque veritatis perspiciatis quasi eum dolor magnam quam odio quos? Vel minima voluptates sequi, et deleniti neque rerum a officia corporis!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde impedit praesentium tempore, repellendus sapiente voluptates quae iusto quam debitis nisi itaque, placeat aspernatur? Doloribus laudantium magni vel asperiores debitis quasi.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, quis, officia iusto ut, ad debitis cumque distinctio vero suscipit hic deserunt quod mollitia ex nulla dolor tenetur aspernatur ullam provident?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, ab dignissimos in accusantium, non perferendis quod quos a natus totam odit quisquam impedit sed nostrum nulla eos quam? Aut, incidunt!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora laudantium maiores recusandae harum vel commodi eligendi fugiat nemo porro, id earum unde quos amet! Optio magnam eos assumenda commodi quidem.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus corporis soluta unde officia quis, saepe nemo vitae nobis blanditiis hic, eum dignissimos aliquid. Dolorem ex ipsa rerum neque odit nulla.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae sint velit necessitatibus provident delectus vero! Veniam magnam accusantium non! Reprehenderit atque provident eum excepturi rerum in at sint maxime. Quae.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores adipisci itaque quo, officia illo consequatur recusandae optio ipsam voluptatibus. Minima necessitatibus nam sit, perferendis veniam ad molestias voluptatibus eum illo.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci suscipit, aliquam quasi, nam saepe tenetur error facilis iste quidem minima unde iure fugit temporibus enim, omnis incidunt vitae nisi similique.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium natus consequuntur architecto consectetur quod, iusto esse, officia eaque, laborum quaerat quidem! Beatae odio minus nostrum quisquam earum repellat illo accusantium.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum perferendis architecto natus commodi consequatur dolor nam aperiam itaque ea provident. Adipisci porro inventore ex eligendi deleniti perspiciatis, molestiae aspernatur pariatur.
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate fuga alias eaque quas cumque, asperiores ea enim fugiat eum minima maxime suscipit, eligendi itaque. Delectus saepe tenetur inventore reiciendis nobis?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit vitae perspiciatis nobis doloribus ex tempora dolores? Veritatis enim sapiente aliquam totam dicta quo! Sit architecto magnam libero quos cum modi.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut sapiente blanditiis exercitationem quos cumque vel eum animi. Harum natus consequuntur veritatis. Sint minus voluptate quis earum sapiente necessitatibus a excepturi.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut animi consequuntur tempora fuga accusamus at cupiditate vel voluptates neque, ratione molestias rerum officiis esse voluptatem alias, beatae asperiores harum. Possimus!
+    <h2 id="#history">História</h2>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat veniam unde architecto blanditiis ipsam dolore minima quo debitis voluptatum. Dolorem suscipit quis facere sint dicta assumenda vel corporis nostrum debitis?
+    <h2 id="#works">Trabalhos</h2>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae ut maxime explicabo magnam doloribus minima odit praesentium enim eum pariatur aliquam sint laboriosam earum perspiciatis debitis quam, repellendus inventore in?
+
+
+    <!--
+        Conteúdo dos Hyperlinks
+
+        - qualquer contéudo
+    -->
+    <a href="http://google.com" title="Ir para o Google">
+        <h1>Google</h1>
+        <p>Clarro que posso</p>
+        <img src="https://source.unsplash.com/random" alt="">
+    </a>
+
+
+    <!--
+        URLs e Caminhos dos arquivos
+
+        -Uniform Resource Loctor
+            -https://rocketseat.com.br
+            -Sequência de texto que define onde algo está locaizado na Web
+        -URL usam caminhos para encontrar arquivos
+    
+        -Caminhos dos arquivos
+            -Onde, no explorador de arquivos, um recurso está localizado
+    -->
+    <a href="hyperlinks.html">Open Hyperlinks</a>
+
+
+</body>
+</html>
